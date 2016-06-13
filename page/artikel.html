@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chocodot Online</title>
+	<link rel="stylesheet" type="text/css" href="../css/chocodot.css">
+</head>
+<body id="home_artikel" ng-app="chocodot">
+
+<div class="link_home">
+	<a href="../index.html">
+		<img src="../assets/logo.png" width="80px">
+	</a>
+</div>
+
+<div class="text_profil">
+	<img src="../assets/artikel/text_artikel.png" width="200px">
+</div>
+
+<div class="bg_text_artikel" ng-model="artikel" ng-init="artikel = 'satu'">
+	<div class="text_artikel" ng-show="artikel == 'satu'">
+		<h3>Proses Pembuatan Chocodot</h3>
+		<p>&nbsp&nbsp&nbsp Dilihat dari proses pembuatannya, untuk menghasilkan coklat isi dodol ini terbilang mudah dan sederhana. Ada tiga varian cokelat yang digunakan dalam pembuatan chocodot yaitu dark chocholate, white chocolate, dan milk chocolate. Cokelat-cokelat batangan ini pertama-tama dilelehkan lalu dicetak kembali dengan diisi dodol aneka rasa pada bagian tengahnya.</p>
+		<p>&nbsp&nbsp&nbsp Dodol yang digunakan sendiri adalah dodol keju dan dodol buah-buahan seperti jeruk, sirsak, duren, dan lain-lain. Proses berikutnya setelah dodol dimasukkan ke dalam cokelat adalah mendinginkan cetakan dengan suhu dibawah 400 C, hingga adonan cokelat dan dodol benar-benar menyatu.</p>
+		<div class="button-next">
+			<button ng-click="artikel ='satu'">1</button>
+			<button ng-click="artikel ='dua'">2</button>
+			<button ng-click="artikel ='tiga'">3</button>
+		</div>
+	</div>
+	<div class="text_artikel" ng-show="artikel == 'dua'">
+		<h3>Manfaat Coklat</h3>
+		<p>1. Menurunkan tekanana darah dan kolesterol</p>
+		<p>&nbsp&nbsp&nbsp Coklat merupakan zat yang mengandung senyawa yang berpungsi untuk menenangkan syaraf-syaraf yang tegang. Dengan memakan coklat maka perasaan seseorang akan menjadi  lebih rileks, oleh sebab itu dengan memakan coklat bisa menurunkan tekanan darah.</p>
+		<p>2. Mengandung  Antioksidan Yang Tinggi</p>
+		<p>&nbsp&nbsp&nbsp berdasarkan hasil penelitian ternyata coklat  mengandung flavanol, sejenis flavanoid yang ditemukan pada coklat. Flavanoid adalah senyawa yang terbentuk secara alamiah dalam makanan nabati dan bertindak sebagai antioksidan dan membantu menangkal radikal bebas dalam tubuh.</p>
+		<div class="button-next">
+			<button ng-click="artikel ='satu'">1</button>
+			<button ng-click="artikel ='dua'">2</button>
+			<button ng-click="artikel ='tiga'">3</button>
+		</div>
+	</div>
+	<div class="text_artikel" ng-show="artikel == 'tiga'">
+		<h3>Manfaat Coklat 2</h3>
+		<p>3. Mengandung  Anti-Depresi</p>
+		<p>&nbsp&nbsp&nbsp Hasil penelitian juga membuktikan bahwa Coklat mengandung serotonin, alami anti-depresan. Dengan memakan Cokelat juga bisa  merangsang tubuh untuk memproduksi enzim endorfin, yang berperan menciptakan perasaan senang dan bahagia. Sebuah studi menemukan bahwa pencairan cokelat di mulut menghasilkan perasaan senang lebih lama. Jadi ketika anda merasa dalam keadaan stress atau tertekan sempatkan waktu untuk menikmati coklat.</p>
+		<p>4. Membuat Panjang Umur</p>
+		<p>&nbsp&nbsp&nbsp Hasil penelitian yang dilakukan di Belanda yang diikuti 200 pria di atas 20 tahun, menemukan bahwa para pria yang mengkonsumsi sejumlah besar coklat, baik itu berupa dark coklat dan milk chocolate, usianya lebih lama dan telah menurunkan tingkat penyaki.</p>
+		<div class="button-next">
+			<button ng-click="artikel ='satu'">1</button>
+			<button ng-click="artikel ='dua'">2</button>
+			<button ng-click="artikel ='tiga'">3</button>
+		</div>
+	</div>
+</div>
+
+<div class="sparator">
+	
+</div>
+
+<div class="menu_profil">
+	<a href="">
+		<img src="../assets/link_profil.png" width="68px">
+	</a>
+</div>
+<div class="menu_produk">
+	<a href="produk.html">
+		<img src="../assets/link_produk.png" width="60px">
+	</a>
+</div>
+<div class="menu_artikel">
+	<a href="artikel.html">
+		<img src="../assets/link_artikel_a.png" width="60px">
+	</a>
+</div>
+<div class="menu_pesan">
+	<a href="pesan.html">
+		<img src="../assets/link_pesan.png" width="60px">
+	</a>
+</div>
+<div class="menu_kontak">
+	<a href="kontak.html">
+		<img src="../assets/link_kontak.png" width="60px">
+	</a>
+</div>
+
+<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="../core/chocodot.js"></script>
+</body>
+</html>

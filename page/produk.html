@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chocodot Online</title>
+	<link rel="stylesheet" type="text/css" href="../css/chocodot.css">
+</head>
+<body id="home_produk" ng-app="chocodot">
+
+<div class="link_home">
+	<a href="../index.html">
+		<img src="../assets/logo.png" width="80px">
+	</a>
+</div>
+
+<div class="text_profil">
+	<img src="../assets/Produk_text.png" width="200px">
+</div>
+
+<!-- <div class="kategori">
+	<a href="#">
+		<img src="../assets/p1_a.png" 
+		onmouseover="this.src='../assets/p1.png'" 
+		onmouseout="this.src='../assets/p1_a.png'" 
+		border="0" width="350px" alt=""/>
+	</a><br /><br />
+	<a href="#">
+		<img src="../assets/p2_a.png" 
+		onmouseover="this.src='../assets/p2.png'" 
+		onmouseout="this.src='../assets/p2_a.png'" 
+		border="0" width="350px" alt=""/>
+	</a><br /><br />
+	<a href="#">
+		<img src="../assets/p3_a.png" 
+		onmouseover="this.src='../assets/p3.png'" 
+		onmouseout="this.src='../assets/p3_a.png'" 
+		border="0" width="350px" alt=""/>
+	</a><br /><br />
+	<a href="#">
+		<img src="../assets/p4_a.png" 
+		onmouseover="this.src='../assets/p4.png'" 
+		onmouseout="this.src='../assets/p4_a.png'" 
+		border="0" width="350px" alt=""/>
+	</a>
+</div> -->
+
+<div class="bg_text_produk" ng-model="img" ng-init="img = 'def'">
+	<img src="../assets/produk/produk2.png" ng-show="img == 'def'">
+	<img src="../assets/produk/atas.gif" ng-show="img == 'top'">
+	<img src="../assets/produk/tengah.gif" ng-show="img == 'middle'">
+	<img src="../assets/produk/bawah.gif" ng-show="img == 'bottom'">
+</div>
+
+<div class="top" ng-click="img = 'top'"></div>
+<div class="middle" ng-click="img = 'middle'"></div>
+<div class="bottom" ng-click="img = 'bottom'"></div>
+
+<div class="sparator">
+	
+</div>
+
+<div class="menu_profil">
+	<a href="profil.html">
+		<img src="../assets/link_profil.png" width="68px">
+	</a>
+</div>
+<div class="menu_produk">
+	<a href="#">
+		<img src="../assets/link_produkl_a.png" width="60px">
+	</a>
+</div>
+<div class="menu_artikel">
+	<a href="artikel.html">
+		<img src="../assets/link_artikel.png" width="60px">
+	</a>
+</div>
+<div class="menu_pesan">
+	<a href="pesan.html">
+		<img src="../assets/link_pesan.png" width="60px">
+	</a>
+</div>
+<div class="menu_kontak">
+	<a href="kontak.html">
+		<img src="../assets/link_kontak.png" width="60px">
+	</a>
+</div>
+
+<script type="text/javascript" src="../bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="../core/chocodot.js"></script>
+</body>
+</html>

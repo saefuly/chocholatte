@@ -1,0 +1,304 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+@font-face {
+    font-family: 'futura';
+    src: url('../font/ufonts.com_futura-md-bt-medium-webfont.eot');
+    src: url('../font/ufonts.com_futura-md-bt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/ufonts.com_futura-md-bt-medium-webfont.woff2') format('woff2'),
+         url('../font/ufonts.com_futura-md-bt-medium-webfont.woff') format('woff'),
+         url('../font/ufonts.com_futura-md-bt-medium-webfont.ttf') format('truetype'),
+         url('../font/ufonts.com_futura-md-bt-medium-webfont.svg#futura_md_btmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#home{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url("../assets/Home_bg.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#home_produk{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url('../assets/produk/produk.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#home_profil{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url('../assets/profil/profil.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+
+#home_kontak{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url('../assets/kontak/kntk.gif') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#home_pesan{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url('../assets/pesan/bg-carpes_s.gif') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#home_artikel{
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	background: url('../assets/artikel/artikel.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover;
+}
+
+#produk{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 200px;
+	display: block;
+}
+
+#profil{
+	position: absolute;
+	margin-top: 420px;
+	margin-left: 230px;
+	display: block;
+}
+
+#artikel{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 550px;
+	display: block;
+}
+
+#pesan{
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 900px;
+	display: block;
+}
+
+.carpes{
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 450px;
+	display: block;
+}
+
+#kontak{
+	position: absolute;
+	margin-top: 460px;
+	margin-left: 860px;
+	display: block;
+}
+
+#coklat{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 450px;
+	display: block;
+}
+
+.link_home{
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.text_profil{
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+
+.bg_pesan{
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 100px;
+}
+
+.bg_profil{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -40px;
+}
+
+.bg_produk{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 50px;
+}
+
+.bg_text{
+	background: url("../assets/Profil_box.png");
+	height: 100vh;
+	width: 500px;
+	position: absolute;
+	margin-left: 650px;
+	overflow: hidden;
+}
+
+.bg_text_profil{
+	background: url("../assets/profil/profile.png") no-repeat;
+	height: 500px;
+	width: 700px;
+	position: absolute;
+	margin-left: 550px;
+	overflow: hidden;
+	margin-top: 130px;
+}
+
+.bg_text_artikel{
+	background: url("../assets/artikel/box.png");
+	height: 100vh;
+	width: 500px;
+	position: absolute;
+	margin-left: 650px;
+	overflow: hidden;
+	color: black;
+}
+
+.bg_text_produk{
+	height: 100vh;
+	width: 760px;
+	position: absolute;
+	margin-left: 400px;
+	overflow: hidden;
+}
+
+.top{
+	display: block;
+	width: 760px;
+	position: absolute;
+	min-height: 33vh;
+	margin-left: 400px;
+	cursor: pointer;
+}
+
+.middle{
+	display: block;
+	width: 760px;
+	position: absolute;
+	min-height: 33vh;
+	margin-left: 400px;
+	cursor: pointer;
+	margin-top: 33vh;
+}
+
+.bottom{
+	display: block;
+	width: 760px;
+	position: absolute;
+	min-height: 33vh;
+	margin-left: 400px;
+	cursor: pointer;
+	margin-top: 66vh;
+}
+
+.text{
+	color: black;
+	height: 250px;
+	overflow: auto;
+	font-family: "futura";
+	text-align:justify;
+	margin:90px -300px 90px 140px;
+	padding-right:300px;
+	width: 450px;
+	font-size: 11pt;
+}
+
+.text_artikel{
+	padding: 20px;
+	padding-top: 50px;
+	color: black;
+	height: 600px;
+	overflow: hidden;
+	font-family: "futura";
+	text-align:justify;
+	padding-left: 55px;
+	padding-right: 55px;
+}
+
+.sparator{
+	border-right:2px dotted #000;
+	width: 10px;
+	min-height: 100vh;
+	position: absolute;
+	margin-left: 1250px;
+}
+
+.item{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 80px;
+}
+
+.kategori{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.cart_be{
+	position: absolute;
+	margin-top: 320px;
+}
+.cart{
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 200px; 
+}
+.cart_ne{
+	position: absolute;
+	margin-top: 320px;
+	margin-left: 400px; 
+}
+
+
+.menu_profil{position: absolute;right: 0;}
+.menu_produk{position: absolute;right: 0;margin-top: 140px;}
+.menu_artikel{position: absolute;right: 0;margin-top: 270px;}
+.menu_pesan{position: absolute;right: 0;margin-top: 400px;}
+.menu_kontak{position: absolute;right: 0;margin-top: 530px;}
